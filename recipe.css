@@ -1,0 +1,143 @@
+body{
+    background-color:ivory;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    background-color:saddlebrown;
+    color:ivory;
+    font-size: 30pt;
+    font-weight:bold;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+#pic1{
+    width: 21%;
+    margin-left: 70px;
+    border-radius: 20px 20px 20px 20px ;
+    float: left;
+}
+h2{
+    color:gold;
+    font-size: 25pt;
+    font-weight:bold;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+#pic2{
+    width: 25%;
+    margin-left: 550px;
+    margin-bottom: 30px;
+    border-radius: 20px 20px 20px 20px ;
+
+}
+h3{
+    color:gold;
+    font-size: 25pt;
+    font-weight:bold;
+   text-align: center;
+  
+}
+a:link{ 
+	color: #000000; 
+}
+ a:visited{ 
+	color:peru;
+}
+a:hover{  
+	color: #7e3e21; 
+}  
+
+ul{
+    color:saddlebrown;
+    font-size: 15pt;
+    font-weight:bold;
+    margin-left: 400px; 
+    
+}
+p{
+    color:saddlebrown;
+    font-size: 15pt;
+    font-weight:bold;
+    margin-left: 400px; 
+    text-align: center;
+    width: 50%;
+
+}
+#pic3{
+    width: 40%;
+    border-radius: 20px 20px 20px 20px ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+#pic4{
+    width: 40%;
+    border-radius: 20px 20px 20px 20px ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;/* ความกว้างรวมรูปทั้งหมดในคลาส */
+    justify-content:center;
+}
+
+.flex_container > div{
+    width: 80%;/* ความยาวรวมรูปทั้งหมดในคลาส */
+    margin-left: 38%;/* ความห่างซ้ายของรูปทั้งหมดในคลาส */
+    margin-bottom: 10px;/* ความห่างระหว่างรูปในคลาส */
+}
+.flex_font{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* #h1_pic{
+    width: 25%;
+    position:static;
+    top: 200px;
+    left: 500px;
+}
+#h2_pic{
+    width: 25%;
+    position:static;
+    top: 2000px;
+    left: 5000px;
+}
+#h3_pic{
+    width: 25%;
+    position:static;
+    top: 20px;
+    left: 50px;
+}
+#serve1_pic{
+    width: 25%;
+    position:static;
+    top: 20px;
+    left: 50px;
+}
+#serve2_pic{
+    width: 25%;
+    position:static;
+    top: 20px;
+    left: 50px;
+} */
+/* a:link{
+	color: #000000; 
+}
+a:visited{
+	color:peru;
+}
+a:hover{  
+	color: #7e3e21; 
+}  */
+
